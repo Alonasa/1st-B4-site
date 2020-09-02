@@ -1,0 +1,18 @@
+
+.main-navigation {
+  background: url('../img/hero-bike.png') no-repeat center #e5e3e9;
+}
+
+.navbar-nav {
+  padding: 24px 0;
+}
+
+@media (min-width: 767px) {
+  .main-navigation {
+    min-height: 800px;
+  }
+
+  .navbar-nav {
+    min-width: 640px;
+  }
+}
