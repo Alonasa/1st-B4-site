@@ -86,6 +86,54 @@
   background-size: cover;
 }
 
+.post {
+  background-color: #f7f7f7;
+  padding-bottom: 44px;
+}
+
+.post__item {
+  padding-top: 124px;
+  padding-bottom: 68px;
+}
+
+.post__content {
+  font-size: 24px;
+}
+
+.post__author {
+  padding-top: 60px;
+  margin: 0;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.post__author::before {
+  content: url('../img/icon-twiter.svg');
+  position: absolute;
+  top: 124px;
+  left: 48%;
+}
+
+.post__content {
+  padding: 12px 0 50px;
+}
+
+.carousel-indicators {
+  margin-bottom: 58px;
+}
+
+.carousel-indicators li {
+  margin: 0 5px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #a9afb3;
+}
+
+.details__photos {
+  
+}
+
 @media (min-width: 767px) {
   .main-navigation {
     min-height: 800px;
