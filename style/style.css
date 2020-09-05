@@ -157,7 +157,35 @@
 .details__btn {
   padding: 12px;
   margin: 75px 0;
-  width: 270px;
+  width: 300px;
+  border-radius: 0;
+}
+
+.subscribe {
+  padding: 110px 0;
+}
+
+.subscribe__title {
+  padding: 32px 0;
+  margin: 0;
+  font-size: 21px;
+  font-style: italic;
+  color: #848789;
+}
+
+.subscribe__email {
+  padding: 34px 26px;
+  width: 400px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 0;
+}
+
+.subscribe__submit {
+  padding: 14px 45px;
+  font-size: 24px;
+  background-color: #64c29e;
+  box-sizing: border-box;
   border-radius: 0;
 }
 
