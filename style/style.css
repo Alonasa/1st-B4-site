@@ -130,8 +130,35 @@
   background-color: #a9afb3;
 }
 
-.details__photos {
-  
+.details__shopping {
+  width: 534px;
+  height: 267px;
+  background: url('../img/detail-6.png') #64c29e no-repeat;
+  background-size: cover;
+}
+
+.details__shop-now {
+  padding: 142px 0 101px;
+  display: block;
+  background-color: rgba(100, 194, 158, 0.7);
+}
+
+.details__icon {
+  position: absolute;
+  left: 45%;
+  top: 20%;
+}
+
+.details__discover {
+  width: 100%;
+  background-color: #282f35;
+}
+
+.details__btn {
+  padding: 12px;
+  margin: 75px 0;
+  width: 270px;
+  border-radius: 0;
 }
 
 @media (min-width: 767px) {
