@@ -1,10 +1,89 @@
 
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
 .main-navigation {
   background: url('../img/hero-bike.png') no-repeat center #e5e3e9;
 }
 
 .navbar-nav {
   padding: 24px 0;
+}
+
+.header {
+  font-size: 20px;
+  line-height: 2.2;
+  padding-top: 58px;
+}
+
+.promo {
+  font-size: 18px;
+  line-height: 1.9;
+  background-color: #f7f7f7;
+}
+
+.promo-container {
+  padding: 120px 15px; 
+}
+
+.presentation {
+  overflow: hidden;
+}
+
+.presentation__info {
+  padding: 0 15px;
+  line-height: 1.8;
+}
+
+.presentation__header {
+  padding-top: 116px;
+  margin: 0;
+}
+
+.presentation__product {
+  height: 600px;
+}
+
+.presentation__item:nth-child(3)::after,
+.presentation__item:nth-child(4)::after,
+.presentation__item:nth-child(7)::after {
+  font-size: 0;
+  line-height: 0;
+}
+
+.presentation__item:nth-child(3)::after {
+  content: url('../img/bikesit.png');
+}
+
+.presentation__item:nth-child(4)::after {
+  content: url('../img/bikesit-dark.png');
+}
+
+.presentation__item:nth-child(7)::after {
+  content: url('../img/bike-part2.png');
+}
+
+.presentation__oliva {
+  background: url('../img/Layer\ 101.png') no-repeat;
+  background-size: cover;
+}
+
+.presentation__laboriosa {
+  background: url('../img/bike-lake.png') no-repeat;
+  background-size: cover;
+}
+
+.presentation__hulot {
+  background: url('../img/bike-part1.png') no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 767px) {
@@ -14,5 +93,17 @@
 
   .navbar-nav {
     min-width: 640px;
+  }
+
+  .presentation__info {
+    padding: 0 20px 0 78px;
+  }
+
+  .presentation__item:nth-child(3)::after,
+  .presentation__item:nth-child(4)::after,
+  .presentation__item:nth-child(7)::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
   }
 }

@@ -11,30 +11,64 @@
 
     <title>First website on Bootstrap</title>
   </head>
-  <body>
-    <main class="text-center">
-      <nav class="main-navigation">
-        <div class="navbar navbar-expand-sm navbar-light">
-          <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
-              <ul class="navbar-nav text-uppercase text-сenter justify-content-md-between align-items-md-baseline">
-                <li class="nav-item order-1">
-                  <a href="#" class="navbar-brand">
-                    <img src="../img/Logo-header.png" alt="main logo">
-                  </a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-                <li class="nav-item order-2"><a href="#" class="nav-link">Shop</a></li>
-                <li class="nav-item order-2"><a href="#" class="nav-link">Contact</a></li>
-              </ul>
-            </div>
+  <body class="no-gutters">
+    <nav class="main-navigation text-сenter">
+      <div class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
+            <ul class="navbar-nav text-uppercase text-сenter justify-content-md-between align-items-md-baseline">
+              <li class="nav-item order-1">
+                <a href="#" class="navbar-brand">
+                  <img src="../img/Logo-header.png" alt="main logo">
+                </a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+              <li class="nav-item order-2"><a href="#" class="nav-link">Shop</a></li>
+              <li class="nav-item order-2"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <main class="text-center">
+      <section class="promo">
+        <h3 class="visually-hidden">Presentation of bicycle company</h3>
+        <div class="container promo-container">
+          <h1 class="promo__header header text-uppercase">A new generation of vintage bike</h1>
+          <p class="promo__info info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </section>
+      <section class="presentation row no-gutters">
+        <h3 class="visually-hidden">Choose bicycle of your dream</h3>
+        <div class="presentation__product presentation__oliva col-sm-12 col-lg-8 d-flex align-items-center justify-content-center">
+          <img src="img/Logo-company.png" alt="Logo bicycle" class="presentation__logo">
+        </div>
+        <div class="presentation__item col-sm-12 col-md-4">
+          <h3 class="presentation__header header text-uppercase">Vintage oliva</h3>
+          <p class="presentation__info info text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+        </div>
+        <div class="presentation__item col-sm-12 col-md-4">
+          <h3 class="presentation__header header text-uppercase">La boriosa</h3>
+          <p class="presentation__info info text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+        </div>
+        <div class="presentation__product presentation__laboriosa col-sm-12 col-lg-8 d-flex align-items-center justify-content-center">
+          <img src="img/Logo-vintage.png" alt="Logo bicycle" class="presentation__logo">
+        </div>
+        <div class="presentation__product presentation__hulot col-sm-12 col-lg-4 d-flex align-items-center justify-content-center">
+          <img src="img/Logo-bicycle.png" alt="Logo bicycle" class="presentation__logo">
+        </div>
+        <div class="presentation__item col-sm-12 col-md-4">
+          <h3 class="presentation__header header text-uppercase">retrò Bike - M. Hulot</h3>
+          <p class="presentation__info info text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+        </div>
+        <img src="img/bike-stand.png" alt="Buy red vintage bicycle" class="presentation__logo col-sm-12 col-lg-4">
+        
+      </ы>
+
       <div class="carousel slide" id="demo" data-ride="carousel">
         <h1 class="text-uppercase">Slider gallery on Bootstrap</h1>
         <ul class="carousel-indicators bg-dark">
