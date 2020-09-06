@@ -108,7 +108,7 @@
 }
 
 .post__author::before {
-  content: url('../img/icon-twiter.svg');
+  content: url('../img/icon-twiter.png');
   position: absolute;
   top: 124px;
   left: 48%;
@@ -135,6 +135,12 @@
   height: 267px;
   background: url('../img/detail-6.png') #64c29e no-repeat;
   background-size: cover;
+}
+
+.details__photos {
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex-basis: auto;
 }
 
 .details__shop-now {
@@ -166,7 +172,7 @@
 }
 
 .subscribe__title {
-  padding: 32px 0;
+  padding: 32px 0 35px;
   margin: 0;
   font-size: 21px;
   font-style: italic;
@@ -175,18 +181,50 @@
 
 .subscribe__email {
   padding: 34px 26px;
-  width: 400px;
   box-sizing: border-box;
   display: inline-block;
   border-radius: 0;
+  vertical-align: middle;
 }
 
 .subscribe__submit {
-  padding: 14px 45px;
+  padding: 16px 45px;
   font-size: 24px;
   background-color: #64c29e;
   box-sizing: border-box;
   border-radius: 0;
+  border: none;
+}
+
+.main-footer {
+  background-color: #f7f7f7;
+}
+
+.main-footer__container {
+  padding: 93px 0 63px; 
+}
+
+.main-footer__contact {
+  line-height: 18px;
+}
+
+.social__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social__item {
+  margin-right: 15px;
+}
+
+.social__link {
+  width: 35px;
+  height: 35px;
+}
+
+.social__icon {
+  display: block;
 }
 
 @media (min-width: 767px) {
@@ -208,5 +246,9 @@
     position: absolute;
     left: 0;
     bottom: 0;
+  }
+
+  .subscribe__email {
+    width: 400px;
   }
 }
