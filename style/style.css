@@ -237,7 +237,11 @@
   }
 
   .presentation__info {
-    padding: 0 20px 0 78px;
+     padding: 0px 20px 0 38px;
+  }
+
+  .presentation__header, header {
+     padding: 0;
   }
 
   .presentation__item:nth-child(3)::after,
