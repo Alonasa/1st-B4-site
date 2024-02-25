@@ -18,6 +18,12 @@
   padding: 24px 0;
 }
 
+.nav-link {
+    text-shadow: 0 0 white;
+    color: rgba(0,0,0,1);
+    font-weight: bold;
+}
+
 .header {
   font-size: 20px;
   line-height: 2.2;
